@@ -4,8 +4,9 @@
 
 	function baseURL($fd ){
 
-		$base = $_SERVER['SERVER_NAME'];
-		$name = $_SERVER['REQUEST_URI'];
+		//$base = $_SERVER['SERVER_NAME'];
+		//$name = $_SERVER['REQUEST_URI'];
+		//Do not need if base dosen't call root
 
 		// Print Base URL 
 		echo ($fd ? 'public/'.$fd.'/' : '' ); //if $fd then print
