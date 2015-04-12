@@ -1,14 +1,11 @@
 <?php
 	$thisPage = 'services';
-	require_once '_baseurl.php'; //to use type   echo(baseurl());
-	include('public/inc/head.php');
+	require_once '../_baseurl.php'; //to use type   echo(baseurl());
+	include('inc/head.php');
 	?>
 
 <body>
-	<?php include('public/inc/nav.php'); ?>
-
-
-
+	<?php include('inc/nav.php'); ?>
 
 
 	<div class="accordion">
@@ -95,7 +92,7 @@
 	</span>
 
 
-<?php include('public/inc/footer.php'); ?>
+<?php include('inc/footer.php'); ?>
 
 </body>
 </html>

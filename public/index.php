@@ -1,11 +1,11 @@
 <?php
 	$thisPage = 'index';
-	require_once '_baseurl.php'; //to use type   echo(baseurl());
-	include('public/inc/head.php');
+	require_once '../_baseurl.php'; //to use type   echo(baseurl());
+	include('inc/head.php');
 ?>
 
 <body>
-	<?php include('public/inc/nav.php'); ?>
+	<?php include('inc/nav.php'); ?>
 
 	<section>
 		<h2>Comprehensive Diagnostic Services and Therapy Services:</h2>
@@ -44,7 +44,7 @@ FL License #SA4451
 
 321-228-7257 -->
 
-	<?php include('public/inc/footer.php'); ?>
+	<?php include('inc/footer.php'); ?>
 </body>
 </html>
 

@@ -9,7 +9,7 @@
 		//Do not need if base dosen't call root
 
 		// Print Base URL 
-		echo ($fd ? 'public/'.$fd.'/' : '' ); //if $fd then print
+		echo ($fd ? ''.$fd.'/' : '' ); //if $fd then print
 
 
 	}
