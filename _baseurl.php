@@ -2,11 +2,13 @@
 									//define('BASE_URL', 'http://example.com');
 	//define('base_URL', 'http://licensurelabs.com/wip');
 
-
 	function baseURL($fd ){
 
+		$base = $_SERVER['SERVER_NAME'];
+		$name = $_SERVER['REQUEST_URI'];
+
 		// Print Base URL 
-		echo ($fd ? '/slptx.us/public/'.$fd.'/' : '/slptx.us/'); //if $fd then print
+		echo ($fd ? 'public/'.$fd.'/' : '' ); //if $fd then print
 
 
 	}
