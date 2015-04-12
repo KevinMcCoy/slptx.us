@@ -1,0 +1,33 @@
+.accordion {
+	margin:100px auto;
+	padding:0;
+	max-width:760px;
+}
+
+.accordion .hide {
+	display:none;
+}
+
+.accordion article{
+}
+
+.accordion header {
+	overflow: auto;
+	padding:0px 10px;
+	font-size:1.2em;
+	line-height:1em;
+	color:#FFF;
+	background: rgb(59,56,112);
+	border-bottom: 1px solid #2980b9;
+}
+
+.accordion section {
+	margin:0;
+	padding: 10px;
+	border: 1px solid #efefef;
+	background: #FFF;
+}
+
+.accordion .hide {
+	display:none;
+}

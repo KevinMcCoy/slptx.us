@@ -1,0 +1,44 @@
+/* CSS Document */
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.3;
+	background: #bdc3c7;
+	}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}	
+
+#accordion {
+	margin:100px auto;
+	padding:0;
+	max-width:1160px;
+	}
+	
+#accordion li {
+	list-style:none;
+	}
+	
+#accordion li.content {
+	margin:0;
+	padding: 10px;
+	border: 1px solid #efefef;
+	background: #FFF;
+	}
+	
+#accordion li.title {
+	padding:10px;
+	
+	font-size:1.2em;
+	line-height:2em;
+	color:#FFF;
+	
+	background: #3498db;
+	border-bottom: 1px solid #2980b9;
+	}
+	
+#accordion .hide {
+	display:none;
+	}

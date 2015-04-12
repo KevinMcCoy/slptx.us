@@ -1,0 +1,259 @@
+/* CSS Written by Kevin McCoy 2015 */
+
+
+
+
+/* ====================================*/
+/* === Fonts     ======================*/
+/* ====================================*/
+article#post-home p{
+	font-size: 1.2em;
+}
+
+
+h1, h2, h3, h4,
+a,
+body .widget,
+body .widget a,
+header h1#site-title a,
+nav#menu ul li a,
+h2.entry-title,
+h2.widget-title,
+span{
+	color: rgb(228, 9, 11); /* Orange near -> rgb(233,61,28);*/
+	text-decoration: none;
+}
+
+body,
+body .hentry p,
+header h2#site-description a,
+h2#site-phone{
+	color: #002244; /* Blue near-> rgb(3, 21, 64);*/
+}
+
+
+body .widget,
+nav#menu ul li.current_page_item a{
+	color: rgb(205, 205, 205);
+}
+
+nav#menu ul li.current_page_item a{
+	font-size: 1.05em;
+	font-weight: bold;
+}
+
+
+h1 a.escapehatch:hover{
+	text-decoration: underline;
+}
+/* ====================================*/
+/* === [END] Font Size ======================*/
+/* ====================================*/
+
+
+/* -------------------------------------------------------------- */
+/* === Layout Setup ============================================= */
+/* -------------------------------------------------------------- */
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* -------------------------------------------------------------- */
+/* === Page's main Header =================================================== */
+/* -------------------------------------------------------------- */
+header#page{
+	display: table;
+	width: 100%;
+	background-color: rgb(242, 241, 181);
+}
+
+header nav{
+	width: 100%;
+	display: table;
+}
+
+
+/* ALL Table Cell*/
+header#page nav h1,
+header#page nav div,
+header#page nav li{
+	display:table-cell;
+	vertical-align: middle;
+	padding: 5px 0px;
+}/* === Not targeting h3 and p === */
+
+
+/* ALL Nav Text */
+nav h1, nav h3, nav p{
+	margin: 0px;
+}
+
+/* 0 - First Cell & Last Cell Add Outer Spacing */
+header#page h1 a{
+	margin-left: 18px;
+}
+header#page div h3,
+header#page div p {
+	margin-right: 18px;
+}
+
+/* 1 - First Cell */
+header#page h1{
+	width: 40%;
+	max-width: 240px;
+	font-size: 1.8vw;
+	min-width: 200px;
+	margin:0px 18px;
+}
+
+/*header#page h1 a{
+	display: block;
+	text-decoration: none;
+}*/
+header#page h1 a p{ display: inline; }
+p.desk{ white-space: pre-wrap;}
+
+
+/*  2 - Middle Cell */
+header#page nav ul{
+	list-style: none;
+	text-align: center;
+}
+header#page nav li{
+	padding-right: 18px;
+}
+
+header#page nav li a{
+	padding: 7px; /* Make it easier to click - duh */
+	display: table-caption;
+}
+
+
+/* 3 - Last Cell */
+header#page div{
+	text-align: right;
+	min-width: 290px;
+}
+
+/* ////// ================= ////// */
+/* PHONE - Media Setup */
+/* ////// ================= ////// */
+@media (max-width: 900px) {
+	/* ========== */
+	/* First Cell */
+	header#page h1{
+		font-size: 0.9em;
+	}
+	header#page h1 a p{
+		display: block; /* from inline-block */
+	}
+	header#page h1 a p.desk{
+		display: none; /* hides the "-" */
+	}
+
+	/* Last Cell */
+	header#page div{
+		font-size: 0.72em;
+	}
+
+}
+/* ////// ================= ////// */
+/* ////// [End] Top Nav Bar ////// */
+/* ////// ================= ////// */
+
+
+
+/* ////// Container ////// */
+#container.contain{
+	width: 1160px;
+	margin: 0 auto;
+}
+
+#main, #sidebar{
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+#main{
+	width: 680px;
+}
+#sidebar{
+	width: 440px;
+}
+#sidebar h2{
+	width: 105%;
+}
+
+#sidebar .widget ul li{
+	list-style-type: none;
+}
+li#social_media{
+	height: 173.2px;
+}
+li#social_media ul{
+	overflow: visible;
+}
+li.fb-like{
+	position: relative;
+	top: -23px;
+}
+/* ////// [END] Container ////// */
+
+/*
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+*/
+
+/*  Home Page Style */
+article#post-home img.fright{
+	margin: 30px 0 0 8px;
+	border-radius: 7px;
+}
+
+article#post-home p.wlist{
+	margin-bottom: -20px;
+}
+
+article#post-home div.entry-content{
+	margin-bottom: -7px;
+	padding-bottom: 0px;
+}
+article#post-home img.fullWith{
+	margin-left: -15px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+/* [END] Home Page Style */
+
+
+/*  About Page Style */
+article#post-about span{
+	text-align: center;
+}
+
+article#post-about h3{
+	margin-left: 35px;
+}
+
+article#post-about h1,
+article#post-about h2{
+	position: relative;
+}
+
+article#post-about span h1{
+	right: 60px;
+}article#post-about span h2{
+	left: 50px;
+}
+
+article#post-about img{
+	margin: 0 auto;
+	display: block;
+}
+
+/* [END] About Page Style */
+
