@@ -15,7 +15,7 @@ h1, h2, h3, h4,
 a,
 body .widget,
 body .widget a,
-header h1#site-title a,
+header h1 a,
 nav#menu ul li a,
 h2.entry-title,
 h2.widget-title,
@@ -43,7 +43,8 @@ nav#menu ul li.current_page_item a{
 }
 
 
-h1 a.escapehatch:hover{
+h1 a.escapehatch:hover,
+a:hover{
 	text-decoration: underline;
 }
 /* ====================================*/
@@ -71,6 +72,7 @@ header#page{
 header nav{
 	width: 100%;
 	display: table;
+	padding: 12px;
 }
 
 
@@ -80,7 +82,6 @@ header#page nav div,
 header#page nav li{
 	display:table-cell;
 	vertical-align: middle;
-	padding: 5px 0px;
 }/* === Not targeting h3 and p === */
 
 
@@ -92,15 +93,21 @@ nav h1, nav h3, nav p{
 /* 0 - First Cell & Last Cell Add Outer Spacing */
 header#page h1 a{
 	margin-left: 18px;
+	width: inherit; /* fix for hover over */
+	display: block; /* due to being inside of h1 */
 }
+header#page a{
+	white-space: nowrap;
+}
+
 header#page div h3,
 header#page div p {
 	margin-right: 18px;
 }
 
 /* 1 - First Cell */
-header#page h1{
-	width: 40%;
+header#page nav h1{
+	width: 47%; /* basically moves the 2nd cell */
 	max-width: 240px;
 	font-size: 1.8vw;
 	min-width: 200px;
@@ -111,44 +118,57 @@ header#page h1{
 	display: block;
 	text-decoration: none;
 }*/
-header#page h1 a p{ display: inline; }
-p.desk{ white-space: pre-wrap;}
+header#page h1 a p{
+	display: inline;
+	white-space: nowrap;
+}
+
+header#page h1 a p.desktop{
+}
+header#page h1 a p.tablet{
+	display: none;
+}
 
 
 /*  2 - Middle Cell */
 header#page nav ul{
 	list-style: none;
 	text-align: center;
+	padding-left: 0px;
+	display: table-cell;
+	vertical-align: middle;
 }
-header#page nav li{
+header#page nav li:not(:last-child){
 	padding-right: 18px;
 }
 
 header#page nav li a{
 	padding: 7px; /* Make it easier to click - duh */
-	display: table-caption;
+	display: table-cell;
+	font-size: 1.1em;
+	font-weight: 500;
 }
 
 
 /* 3 - Last Cell */
 header#page div{
 	text-align: right;
-	min-width: 290px;
+	min-width: 285px;
 }
 
 /* ////// ================= ////// */
 /* PHONE - Media Setup */
 /* ////// ================= ////// */
-@media (max-width: 900px) {
+@media (max-width: 1082px) {
 	/* ========== */
 	/* First Cell */
 	header#page h1{
 		font-size: 0.9em;
 	}
-	header#page h1 a p{
+	header#page h1 a p.tablet{
 		display: block; /* from inline-block */
 	}
-	header#page h1 a p.desk{
+	header#page h1 a p.desktop{
 		display: none; /* hides the "-" */
 	}
 

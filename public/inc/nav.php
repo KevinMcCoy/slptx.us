@@ -1,9 +1,8 @@
 <header id="page">
 	<nav>
 		<h1 id="site-title"><a href="index.php" class="escapehatch">
-			<p>Maitland Speech Therapy In Central Florida</p>
-			<p>Maitland Speech Therapy</p>
-			<p>Central Florida</p>
+			<p class="desktop">Maitland Speech Therapy In Central Florida</p>
+			<p class="tablet">Maitland Speech Therapy<br />Central Florida</p>
 		</a></h1>
 		<ul>
 			<li><a href = '<?= (baseurl());?>services.php'>
