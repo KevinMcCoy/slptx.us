@@ -47,9 +47,15 @@ h1 a.escapehatch:hover,
 a:hover{
 	text-decoration: underline;
 }
+a{
+	padding: 7px; /* Make it easier to click - duh */
+}
 /* ====================================*/
 /* === [END] Font Size ======================*/
 /* ====================================*/
+
+
+
 
 
 /* -------------------------------------------------------------- */
@@ -58,6 +64,9 @@ a:hover{
 html, body{
 	margin: 0px;
 	padding: 0px;
+
+	background-color: yellow;
+
 }
 
 /* -------------------------------------------------------------- */
@@ -72,62 +81,42 @@ header#page{
 header nav{
 	width: 100%;
 	display: table;
-	padding: 12px;
 }
 
 
 /* ALL Table Cell*/
 header#page nav h1,
-header#page nav div,
-header#page nav li{
+header#page nav li,
+header#page nav div{
 	display:table-cell;
 	vertical-align: middle;
 }/* === Not targeting h3 and p === */
 
 
 /* ALL Nav Text */
-nav h1, nav h3, nav p{
+nav h1, nav p, nav a, header#page h3{
 	margin: 0px;
-}
-
-/* 0 - First Cell & Last Cell Add Outer Spacing */
-header#page h1 a{
-	margin-left: 18px;
-	width: inherit; /* fix for hover over */
-	display: block; /* due to being inside of h1 */
-}
-header#page a{
+	display: inline;
 	white-space: nowrap;
+	vertical-align: middle;
 }
 
-header#page div h3,
-header#page div p {
-	margin-right: 18px;
-}
 
 /* 1 - First Cell */
 header#page nav h1{
 	width: 47%; /* basically moves the 2nd cell */
-	max-width: 240px;
 	font-size: 1.8vw;
-	min-width: 200px;
-	margin:0px 18px;
+	padding-left: 14px;
+	padding-right: 8px;
 }
 
-/*header#page h1 a{
-	display: block;
-	text-decoration: none;
-}*/
-header#page h1 a p{
-	display: inline;
-	white-space: nowrap;
+header#page h1 a{
+	width: inherit; /* fix for hover over */
+	display: block; /* due to being inside of h1 */
 }
 
-header#page h1 a p.desktop{
-}
-header#page h1 a p.tablet{
-	display: none;
-}
+header#page h1 a p.desktop{}
+header#page h1 a p.tablet{display: none;}
 
 
 /*  2 - Middle Cell */
@@ -135,25 +124,21 @@ header#page nav ul{
 	list-style: none;
 	text-align: center;
 	padding-left: 0px;
-	display: table-cell;
-	vertical-align: middle;
+	line-height: 2.4em;
 }
-header#page nav li:not(:last-child){
+header#page nav li{ /*:not(:last-child){*/
 	padding-right: 18px;
 }
 
 header#page nav li a{
-	padding: 7px; /* Make it easier to click - duh */
-	display: table-cell;
 	font-size: 1.1em;
 	font-weight: 500;
 }
 
-
 /* 3 - Last Cell */
-header#page div{
+header#page div.right{
 	text-align: right;
-	min-width: 285px;
+	padding: 8px 14px 8px 0px;
 }
 
 /* ////// ================= ////// */
@@ -162,8 +147,9 @@ header#page div{
 @media (max-width: 1082px) {
 	/* ========== */
 	/* First Cell */
-	header#page h1{
+	header#page nav h1{
 		font-size: 0.9em;
+		width: 37%;
 	}
 	header#page h1 a p.tablet{
 		display: block; /* from inline-block */
@@ -176,7 +162,6 @@ header#page div{
 	header#page div{
 		font-size: 0.72em;
 	}
-
 }
 /* ////// ================= ////// */
 /* ////// [End] Top Nav Bar ////// */
@@ -184,10 +169,15 @@ header#page div{
 
 
 
+
+/* -------------------------------------------------------------- */
 /* ////// Container ////// */
-#container.contain{
-	width: 1160px;
+/* -------------------------------------------------------------- */
+#container{
+	width: 92%;
+	max-width: 1080px;
 	margin: 0 auto;
+	background-color: rgba(255,255,255,0.8);
 }
 
 #main, #sidebar{
@@ -274,6 +264,16 @@ article#post-about img{
 	margin: 0 auto;
 	display: block;
 }
-
 /* [END] About Page Style */
 
+
+
+footer{
+	background-color: blue;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: 900;
+	font-size: 1.5em;
+	line-height: 2em;
+}

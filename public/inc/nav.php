@@ -1,9 +1,11 @@
 <header id="page">
 	<nav>
-		<h1 id="site-title"><a href="index.php" class="escapehatch">
+		<h1 id="site-title">
+			<a href="index.php" class="escapehatch">
 			<p class="desktop">Maitland Speech Therapy In Central Florida</p>
 			<p class="tablet">Maitland Speech Therapy<br />Central Florida</p>
-		</a></h1>
+			</a>
+		</h1>
 		<ul>
 			<li><a href = '<?= (baseurl());?>services.php'>
 				<!-- <img src='<?= (baseurl('img'));?>services.png' alt="Our Services Logo" height="70" width="70"> -->
