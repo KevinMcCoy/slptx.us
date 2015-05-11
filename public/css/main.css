@@ -20,6 +20,7 @@ h1, h2, h3, h4, a, span{
 
 body{
 	color: #081CE4; /* Blue <---> rgb(3, 21, 64); */
+	min-width:822px;
 }
 #container p,
 #container span{
