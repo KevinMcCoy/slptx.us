@@ -1,9 +1,9 @@
 <?php
 	function baseURL($folder){
 
-		$base = $_SERVER['SERVER_NAME']; //string(9) "127.0.0.1"											<--> string(12) "dev.slptx.us"
+		//$base = $_SERVER['SERVER_NAME']; //string(9) "127.0.0.1"											<--> string(12) "dev.slptx.us"
 		$base = $_SERVER['HTTP_HOST']; //string(9) "127.0.0.1"											<--> string(12) "dev.slptx.us"
-		$name = $_SERVER['REQUEST_URI']; //string(29) "/slptx.us/public/services.php" <--> string(1) "/"
+		//$name = $_SERVER['REQUEST_URI']; //string(29) "/slptx.us/public/services.php" <--> string(1) "/"
 
 
 		// Print Base URL
@@ -15,7 +15,7 @@
 		// return basename($name).'/'; //
 		// return pathinfo($name).'/'; //
 		// return realpath($name).'/'; //
-		return dirname($name).'/';
+		return dirname($base).'/';
 
 
 
