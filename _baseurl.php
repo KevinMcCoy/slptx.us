@@ -1,7 +1,4 @@
 <?php
-	//define('BASE_URL', 'http://example.com');
-	//define('base_URL', 'http://licensurelabs.com/wip');
-
 	function baseURL($folder){
 
 		$base = $_SERVER['SERVER_NAME']; //string(9) "127.0.0.1"											<--> string(12) "dev.slptx.us"
@@ -15,8 +12,14 @@
 			return $folder.'/';
 		}
 
-		return $base.$name;
+		// return basename($name).'/'; //
+		// return pathinfo($name).'/'; //
+		// return realpath($name).'/'; //
+		return dirname($name).'/';
+
+
 
 	}
+
 
 ?>

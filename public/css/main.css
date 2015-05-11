@@ -11,27 +11,56 @@ article#post-home p{
 }
 
 
-h1, h2, h3, h4,
-a,
-body .widget,
-body .widget a,
-header h1 a,
-nav#menu ul li a,
-h2.entry-title,
-h2.widget-title,
-span{
-	color: rgb(228, 9, 11); /* Orange near -> rgb(233,61,28);*/
+/* Color Family Weight */
+h1, h2, h3, h4, a, span{
+	color: rgb(228, 9, 11); /* Orange <---> rgb(233,61,28); */
 	text-decoration: none;
 }
 
-body,
-body .hentry p,
-header h2#site-description a,
-h2#site-phone{
-	color: #002244; /* Blue near-> rgb(3, 21, 64);*/
+body{
+	color: #081CE4; /* Blue <---> rgb(3, 21, 64); */
+}
+
+/* Links - A Href */
+a:hover,
+a.active,
+a.active p{
+	color: #081CE4;
+}
+nav li a{
+	padding: 7px; /* Make it easier to click - duh */
+}
+
+nav h3{ /* Phone Number */
+	font-size: 21px;
+}
+nav h3 a{				/* Hack for Mobile to Click and Call */
+	cursor: default;
+}
+nav h3 a:hover{	/* Hack for Mobile to Click and Call */
+	text-decoration: none;
+	color: rgb(228, 9, 11);
+}
+nav div.right p{
+	font-size: 13px;
 }
 
 
+/* Font Awasome - reset*/
+a.i{
+	padding: 0px;
+	margin: 0px;
+	color: rgb(253, 248, 248);
+}
+a.i:hover{
+	transition: color 1.4s ease;
+	cursor: pointer;
+	/*color: rgb(200,200,200);*/
+	color: rgb(228, 9, 11);
+}
+
+
+/*current_page_item*/
 body .widget,
 nav#menu ul li.current_page_item a{
 	color: rgb(205, 205, 205);
@@ -43,13 +72,7 @@ nav#menu ul li.current_page_item a{
 }
 
 
-h1 a.escapehatch:hover,
-a:hover{
-	text-decoration: underline;
-}
-a{
-	padding: 7px; /* Make it easier to click - duh */
-}
+
 /* ====================================*/
 /* === [END] Font Size ======================*/
 /* ====================================*/
@@ -65,7 +88,8 @@ html, body{
 	margin: 0px;
 	padding: 0px;
 
-	background-color: yellow;
+	/*background-color: black;*/
+	background-color: rgb(254,254,254);
 
 }
 
@@ -75,7 +99,8 @@ html, body{
 header#page{
 	display: table;
 	width: 100%;
-	background-color: rgb(242, 241, 181);
+	background-color: rgb(255, 255, 240);
+	border-bottom: 2px black solid;
 }
 
 header nav{
@@ -84,8 +109,10 @@ header nav{
 }
 
 
-/* ALL Table Cell*/
+/* Top Header Navigation is divided to three section, Left, Middle, Right /*
+/* ALL Table Cell */
 header#page nav h1,
+header#page nav ul,
 header#page nav li,
 header#page nav div{
 	display:table-cell;
@@ -102,7 +129,7 @@ nav h1, nav p, nav a, header#page h3{
 }
 
 
-/* 1 - First Cell */
+/* 1 - Left - First Cell */
 header#page nav h1{
 	width: 47%; /* basically moves the 2nd cell */
 	font-size: 1.8vw;
@@ -119,7 +146,7 @@ header#page h1 a p.desktop{}
 header#page h1 a p.tablet{display: none;}
 
 
-/*  2 - Middle Cell */
+/*  2 - Middle - Second Cell */
 header#page nav ul{
 	list-style: none;
 	text-align: center;
@@ -135,7 +162,7 @@ header#page nav li a{
 	font-weight: 500;
 }
 
-/* 3 - Last Cell */
+/* 3 - Right - Third Cell */
 header#page div.right{
 	text-align: right;
 	padding: 8px 14px 8px 0px;
@@ -281,11 +308,26 @@ article#post-about img{
 
 
 footer{
-	background-color: blue;
+	/*background-color: #081CE4; // Triadic */
+	background-color: #088AE4; /* Split Complimentary */
 	width: 100%;
 	text-align: center;
 	color: white;
 	font-weight: 900;
 	font-size: 1.5em;
 	line-height: 2em;
+}
+footer div{
+	display: inline;
+}
+
+/*Facebook Icon*/
+footer a.i{
+	display: inline-block;
+	margin: 20px;
+}
+/*Copyright*/
+footer span{
+	font-size: .7em;
+	color: #1CE408;
 }

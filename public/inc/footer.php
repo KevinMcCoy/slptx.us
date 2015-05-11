@@ -1,3 +1,6 @@
-<footer id="colophon" role="contentinfo">
-	<div id="site-generator">Maitland Speech Therapy &copy;2015 </div>
+<footer id="" role="">
+	<a class="i" href="https://www.facebook.com/barbara.snipes1" target="_blank">
+		<i class="fa fa-facebook-square"></i>
+	</a>
+	<div id="">Maitland Speech Therapy <span>&copy;2015</span></div>
 </footer>
