@@ -1,4 +1,0 @@
-AuthUserFile /var/www/slptx.us/.htpasswd
-AuthType Basic
-AuthName "This site is to be viewed for Development Purpose Only"
-Require valid-user
