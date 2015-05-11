@@ -17,7 +17,7 @@
 	<title>Maitland Speech Therapy | Central Florida</title>
 	<meta name="title" content="Maitland Speech Therapy | Central Florida" />
 	<meta name="description" content="Speech and Language Therapy can be provided in your home or my office." />
-
+	<meta name="viewport" content="width=device-width">
 
 		<!--[if lt IE 9]>
 			<script src="" type="text/javascript"></script>
