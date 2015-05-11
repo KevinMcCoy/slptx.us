@@ -96,7 +96,7 @@ header#page nav div{
 /* ALL Nav Text */
 nav h1, nav p, nav a, header#page h3{
 	margin: 0px;
-	display: inline;
+	display: block;
 	white-space: nowrap;
 	vertical-align: middle;
 }
@@ -217,6 +217,18 @@ li.fb-like{
 ===========================================================================
 ===========================================================================
 */
+
+div#right_php{
+	background: white;
+	right: 0px;
+	position: absolute;
+	height: 100%;
+	text-align: right;
+}
+
+
+
+
 
 /*  Home Page Style */
 article#post-home img.fright{

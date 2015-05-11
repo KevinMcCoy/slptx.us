@@ -1,6 +1,9 @@
 <?php
 //sinclude('../_baseurl.php'); //to use type   echo(baseurl());
 //require $_SERVER['DOCUMENT_ROOT'].'/_baseurl.php';
+var_dump($_SERVER['SERVER_NAME']);
+//$name = $_SERVER['REQUEST_URI'];
+var_dump($_SERVER['REQUEST_URI']);
 ?>
 
 <!DOCTYPE html>
@@ -48,10 +51,14 @@
 	<!-- default CSS  -  Main.CSS -->
 	<link rel="stylesheet" type="text/css" href="<?= (baseurl('css'));?>style.css">
 	<link rel="stylesheet" type="text/css" href="<?= (baseurl('css'));?>main.css">
+	<!-- <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'> -->
+	<style>
+	<h1, h3 {font-family: 'Questrial', sans-serif;}
+	</style>
 
 	<!-- JavaScript -->
-	<script src="public/js/jquery-accordion/jquery-2.1.3.min.js" type="text/javascript"></script>
-	<script src="public/js/jquery-accordion/animate.js" type="text/javascript"></script>
+	<script src="<?php echo(baseurl('af')); ?>/js/jquery-accordion/jquery-2.1.3.min.js" type="text/javascript"></script>
+	<script src="<?php echo(baseurl()); ?>/js/jquery-accordion/animate.js" type="text/javascript"></script>
 
 	<!-- Google Plus Button - Place this tag in your head or just before your close body tag. -->
 	<!-- WIP -->
