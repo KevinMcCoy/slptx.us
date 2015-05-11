@@ -22,6 +22,22 @@
 					</p>
 				</section>
 			</article>
+			<article>
+				<header>
+					<h1>Certifications</h1>
+				</header>
+				<section>
+					<h2>Certifications</h2>
+					<p>Barbara Snipes, M.A., CCC-SLP
+					<p>Speech-Language Pathologist
+
+					<p>ASHA Member
+					<p>FL License #SA4451
+
+					<p><a href="tel: 4079009859">407-900-9859</a></p>
+
+				</section>
+			</article>
 		</div>
 	</div> <!-- [END] #container -->
 

@@ -1,6 +1,6 @@
 .accordion {
 	margin: 0px auto;
-	padding: 100px 0px;
+	padding: 45px 0px;
 	max-width:760px;
 }
 
@@ -12,7 +12,8 @@
 }
 
 .accordion header h1{
-	color: #1CE408;
+	/*color: #1CE408; Green*/
+	color: #E4D008; /* Gold */
 }
 .accordion header {
 	overflow: auto;

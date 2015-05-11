@@ -13,7 +13,8 @@ article#post-home p{
 
 /* Color Family Weight */
 h1, h2, h3, h4, a, span{
-	color: rgb(228, 9, 11); /* Orange <---> rgb(233,61,28); */
+	color: rgb(228, 9, 11); /* Green */
+	/*color: #E4D008; /* Gold */
 	text-decoration: none;
 }
 
@@ -84,13 +85,15 @@ nav#menu ul li.current_page_item a{
 /* -------------------------------------------------------------- */
 /* === Layout Setup ============================================= */
 /* -------------------------------------------------------------- */
-html, body{
-	margin: 0px;
-	padding: 0px;
-
-	/*background-color: black;*/
-	background-color: rgb(254,254,254);
-
+html{
+	background-color: #088AE4 !important; /* Split Complimentary */
+}
+body{
+	background-color: aliceblue;
+	/*background-color: rgb(254,254,254);*/
+}
+section{
+	padding-bottom:12px;
 }
 
 /* -------------------------------------------------------------- */
@@ -201,10 +204,12 @@ header#page div.right{
 /* ////// Container ////// */
 /* -------------------------------------------------------------- */
 #container{
-	width: 92%;
+	display:block;
+	width: 82%;
 	max-width: 1080px;
-	margin: 0 auto;
+	margin: 38px auto 0px;
 	background-color: rgba(255,255,255,0.8);
+	padding: 0.1px 30px 25px;
 }
 
 #main, #sidebar{

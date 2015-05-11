@@ -59,7 +59,7 @@
 
 	<!-- JavaScript -->
 	<script src="js/jquery-accordion/jquery-2.1.3.min.js" type="text/javascript"></script>
-	<script src="js/jquery-accordion/animate.js" type="text/javascript"></script>
+	<!-- <script src="js/jquery-accordion/animate.js" type="text/javascript"></script> -->
 
 	<!-- Google Plus Button - Place this tag in your head or just before your close body tag. -->
 	<!-- WIP -->
