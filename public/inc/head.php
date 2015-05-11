@@ -1,9 +1,5 @@
 <?php
-//sinclude('../_baseurl.php'); //to use type   echo(baseurl());
-//require $_SERVER['DOCUMENT_ROOT'].'/_baseurl.php';
-var_dump($_SERVER['SERVER_NAME']);
-//$name = $_SERVER['REQUEST_URI'];
-var_dump($_SERVER['REQUEST_URI']);
+	//Blank
 ?>
 
 <!DOCTYPE html>
@@ -49,8 +45,8 @@ var_dump($_SERVER['REQUEST_URI']);
 	<!-- Fav Icon -->
 
 	<!-- default CSS  -  Main.CSS -->
-	<link rel="stylesheet" type="text/css" href="<?= (baseurl('css'));?>style.css">
-	<link rel="stylesheet" type="text/css" href="<?= (baseurl('css'));?>main.css">
+	<link rel="stylesheet" type="text/css" href="<?= baseurl('css');?>style.css">
+	<link rel="stylesheet" type="text/css" href="<?= baseurl('css');?>main.css">
 	<!-- <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'> -->
 	<style>
 	<h1, h3 {font-family: 'Questrial', sans-serif;}
