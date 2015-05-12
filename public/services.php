@@ -7,7 +7,10 @@
 <body>
 	<?php include('inc/nav.php'); ?>
 	<div id="container">
-
+		<br>
+		<br>
+		<span style="margin: 0 auto; display:block; max-width:600px; text-align:center;">Speech and Language Therapy Is Available For Children/Adults Experiencing Difficulty In The Following Areas:
+		</span>
 		<div class="accordion">
 			<article>
 				<header>
@@ -64,7 +67,6 @@
 					<h1>Oral-motor Exercises:</h1>
 				</header>
 				<section>
-					<img src='<?= (baseurl());?>img/IMG_Nav1b.jpg' alt='' width='50%' height='' style="float:right; margin:0px 25px;">
 					<p style="width:45%;">Refers to the strength and coordination of the oral/
 					facial muscles needed for correct speech. The client may
 					exhibit drooling, chewing on clothes, or breathing
@@ -74,26 +76,6 @@
 			</article>
 		</div><!-- [END]#accordion -->
 
-
-
-
-
-
-
-
-
-
-
-		<p>Speech and Language Therapy can be provided in your home or my office.</p>
-		<p>	Parents will also be taught how to work with their child during the week and
-			techniques will be taught for carry over into everyday conversations.
-			That way, the child will improve at a faster rate and the parents are happier!
-		</p>
-
-		<span>SPEECH AND LANGUAGE THERAPY IS AVAILABLE
-			FOR CHILDREN/ADULTS EXPERIENCING
-			DIFFICULTY IN THE FOLLOWING AREAS:
-		</span>
 
 	</div> <!-- [END] #container -->
 	<?php include('inc/footer.php'); ?>

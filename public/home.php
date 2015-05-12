@@ -9,8 +9,10 @@
 		//  include('inc/right.php'); ?>
 
 	<div id="container">
-		<a href="http://www.asha.org/" target="_blank"><img src='<?= (baseurl());?>img/vendors/asa_logo.jpg' alt='' width='180px' height='' style="float:right; margin:25px;"></a>
-
+		<div><a href="http://www.asha.org/" target="_blank"><img src='<?= (baseurl());?>img/vendors/asa_logo.jpg' alt='' width='180px' height='' style="float:right; margin:25px;"></a></div>
+<!-- 		<div style="clear:both;"></div>
+		<div><img src='<?= (baseurl());?>img/IMG_Nav1b.jpg' alt='' width='50%' height='' style="float:right; margin:0px 25px;"></div>
+ -->
 		<h2>Services</h2>
 		<section>
 			<h3>Comprehensive Diagnostic Services and Therapy</h3>

@@ -43,14 +43,7 @@
 						necessary.
 					</p>
 				</section>
-				<section>
-					<br>
-					<span>Speech And Language Therapy Is Available
-						For Children/adults Experiencing
-						Difficulty In The Following Areas:
-					</span>
-					<br>
-				</section>
+
 
 			</article>
 		</div><!-- [END]#accordion -->
