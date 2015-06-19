@@ -4,3 +4,4 @@
 	</a>
 	<div id="">Maitland Speech Therapy <span>&copy;2015</span></div>
 </footer>
+<?php include_once("vendors/analyticstracking.php") ?>
