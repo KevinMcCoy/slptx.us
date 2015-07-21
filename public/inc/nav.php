@@ -1,5 +1,6 @@
 <header id="page">
 	<nav>
+		<a id="nav-toggle" href="#"><span></span></a>
 
 		<h1 id="site-title">
 			<a href="index.php" class="escapehatch <?= ($thisPage == 'index' ? ' active' : '') ?>">
@@ -7,6 +8,7 @@
 				<p class="tablet">Maitland Speech Therapy<br />Central Florida</p>
 			</a>
 		</h1>
+
 
 		<ul>
 			<li><a href = '<?= (baseurl());?>services.php' <?= ($thisPage == 'services' ? 'class="active"' : '') ?>>
