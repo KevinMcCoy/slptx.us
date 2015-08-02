@@ -19,10 +19,10 @@ h1, h2, h3, h4, a, span{
 }
 
 body{
-	color: #081CE4; /* Blue <---> rgb(3, 21, 64); */
-	/*min-width:822px;*/
-	min-width:452px;
-	margin: 8px;
+  color: #081CE4; /* Blue <---> rgb(3, 21, 64); */
+  /*min-width:822px;*/
+  min-width:452px;
+  margin: 8px;
 }
 
 #container p,
@@ -179,33 +179,6 @@ header#page div.right{
   text-align: right;
   padding: 8px 14px 8px 0px;
 }
-
-<<<<<<< HEAD
-
-=======
-/* ////// ================= ////// */
-/* PHONE - Media Setup */
-/* ////// ================= ////// */
-@media (max-width: 1082px) {
-  /* ========== */
-  /* First Cell */
-  header#page nav h1{
-    font-size: 0.9em;
-    width: 37%;
-  }
-  header#page h1 a p.tablet{
-    display: block; /* from inline-block */
-  }
-  header#page h1 a p.desktop{
-    display: none; /* hides the "-" */
-  }
-
-  /* Last Cell */
-  header#page div{
-    font-size: 0.72em;
-  }
-}
->>>>>>> origin/master
 /* ////// ================= ////// */
 /* ////// [End] Top Nav Bar ////// */
 /* ////// ================= ////// */
