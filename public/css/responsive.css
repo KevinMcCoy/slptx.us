@@ -39,7 +39,7 @@
 		display: none;
 	}
 
-	#nav-toggle{
+	#hambuger{
 		position: relative;
 		cursor: pointer;
 		height: 35px;
@@ -47,15 +47,15 @@
 		width: 35px;
 		margin-left: 30px;
 	}
-	#nav-toggle span {
+	#hambuger span {
 		position: relative;
 		top: 14px;
 		margin: 0 auto;
 	}
 
-	#nav-toggle span,
-	#nav-toggle span:before,
-	#nav-toggle span:after {
+	#hambuger span,
+	#hambuger span:before,
+	#hambuger span:after {
 	  border-radius: 10px;
 	  height: 7px;
 	  width: 35px;
@@ -64,10 +64,10 @@
 	  display: block;
 	  content: '';
 	}
-	#nav-toggle span:before {
+	#hambuger span:before {
 	  bottom: 13px;
 	}
-	#nav-toggle span:after {
+	#hambuger span:after {
 	  top: 6px;
 	}
 

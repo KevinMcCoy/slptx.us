@@ -1,7 +1,7 @@
 <header id="page">
 
-	<nav>
-		<a id="nav-toggle" href="#"><span></span></a>
+  <nav>
+    <a id="hambuger" href="#"><span></span></a>
 
     <h1 id="site-title">
       <a href="index.php" class="escapehatch <?= ($thisPage == 'index' ? ' active' : '') ?>">
