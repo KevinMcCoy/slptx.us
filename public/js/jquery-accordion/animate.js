@@ -5,12 +5,12 @@ $(document).ready(function() {
   $('div.accordion').each(function(){
       $(this).find('section').filter(':gt(0)').addClass('hide');
     }
-  )
+  );
 
   //Animate accordion each time diffrent header get clicked
   $('article').on('click', 'header', function() {
     $(this).next().slideDown(200).prev().parent().siblings().find('section').slideUp(200);
-  })
+  });
 
 });
 
@@ -24,9 +24,8 @@ $(function(){
   // HTML Selectors
   var wd = $(window);
 
-  var
-    main_nav = $('nav'),
-    menuButton = $('#hambuger'),
+  var main_nav = $('nav'),
+    menuButton = $('#hambuger');
     // menuColor = menuButton.css("background-color");
 
   // Function Handelers
@@ -40,7 +39,7 @@ $(function(){
               // menuButton.click(function () { // Dose not Work for mobile
               // menuButton.on('mousedown touchstart',function(){ // Nope
   menuButton.on(clickHandler,function(event){
-    //console.log('clicked');
+    console.log('clicked');
     event.preventDefault();
     if ($(this).data('name') === 'showing') {
       hide_mobile_nav ();
@@ -88,7 +87,7 @@ $(function(){
         }
       );
 
-      menuButton.animate({backgroundColor: menuColor}, 'slow');
+      //menuButton.animate({backgroundColor: menuColor}, 'slow');
 
       menuButton.removeClass('active');
       menuButton.data('name', 'hiding');
@@ -120,7 +119,7 @@ $(function(){
   });
 
   var main_nav_holder_reset = function(){
-    menuButton.css('background-color', menuColor);
+    //menuButton.css('background-color', menuColor);
     main_nav.css('height', '');
     menuButton.removeClass('active');
     menuButton.data('name', 'hide');
