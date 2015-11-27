@@ -7,78 +7,79 @@
 /* === Fonts     ======================*/
 /* ====================================*/
 article#post-home p{
-  font-size: 1.2em;
+	font-size: 1.2em;
 }
 
 
 /* Color Family Weight */
 h1, h2, h3, h4, a, span{
-  color: rgb(228, 9, 11); /* Green */
-  /*color: #E4D008; /* Gold */
-  text-decoration: none;
+	color: rgb(228, 9, 11); /* Green */
+	/*color: #E4D008; /* Gold */
+	text-decoration: none;
 }
 
 body{
-  color: #081CE4; /* Blue <---> rgb(3, 21, 64); */
-  /*min-width:822px;*/
-  min-width:452px;
-  margin: 8px;
+	color: #081CE4; /* Blue <---> rgb(3, 21, 64); */
+	/*min-width:822px;*/
+	min-width:452px;
+	margin: 8px;
 }
 
 #container p,
 #container span{
-  font-size:1.15em;
-  line-height: 1.25em;
+	font-size:1.15em;
+	line-height: 1.25em;
 }
 
 /* Links - A Href */
 a:hover,
 a.active,
 a.active p{
-  color: #081CE4;
-}
-nav li a{
-  padding: 7px; /* Make it easier to click - duh */
+	color: #081CE4;
 }
 
-nav h3{ /* Phone Number */
-  font-size: 21px;
+header li a{
+	padding: 7px; /* Make it easier to click - duh */
 }
-nav h3 a{				/* Hack for Mobile to Click and Call */
-  cursor: default;
+
+header h3{ /* Phone Number */
+	font-size: 21px;
 }
-nav h3 a:hover{	/* Hack for Mobile to Click and Call */
-  text-decoration: none;
-  color: rgb(228, 9, 11);
+header h3 a{				/* Hack for Mobile to Click and Call */
+	cursor: default;
 }
-nav div.right p{
-  font-size: 13px;
+header h3 a:hover{	/* Hack for Mobile to Click and Call */
+	text-decoration: none;
+	color: rgb(228, 9, 11);
+}
+header div.right p{
+	font-size: 13px;
 }
 
 
 /* Font Awasome - reset*/
 a.i{
-  padding: 0px;
-  margin: 0px;
-  color: rgb(253, 248, 248);
+	padding: 0px;
+	margin: 0px;
+	color: rgb(253, 248, 248);
 }
 a.i:hover{
-  transition: color 1.4s ease;
-  cursor: pointer;
-  /*color: rgb(200,200,200);*/
-  color: rgb(228, 9, 11);
+	transition: color 1.4s ease;
+	cursor: pointer;
+	/*color: rgb(200,200,200);*/
+	color: rgb(228, 9, 11);
 }
 
 
 /*current_page_item*/
 body .widget,
-nav#menu ul li.current_page_item a{
-  color: rgb(205, 205, 205);
+header#menu ul li.current_page_item a{
+	color: rgb(205, 205, 205);
 }
 
-nav#menu ul li.current_page_item a{
-  font-size: 1.05em;
-  font-weight: bold;
+header#menu ul li.current_page_item a{
+	font-size: 1.05em;
+	font-weight: bold;
 }
 
 
@@ -95,92 +96,97 @@ nav#menu ul li.current_page_item a{
 /* === Layout Setup ============================================= */
 /* -------------------------------------------------------------- */
 html{
-  background-color: #088AE4 !important; /* Split Complimentary */
+	background-color: #088AE4 !important; /* Split Complimentary */
 }
 body{
-  background-color: aliceblue;
-  /*background-color: rgb(254,254,254);*/
+	background-color: aliceblue;
+	/*background-color: rgb(254,254,254);*/
 }
 section{
-  padding-bottom:12px;
+	padding-bottom:12px;
 }
 
 /* -------------------------------------------------------------- */
 /* === Page's main Header =================================================== */
 /* -------------------------------------------------------------- */
-header#page{
-  display: table;
-  width: 100%;
-  background-color: rgb(255, 255, 240);
-  border-bottom: 2px black solid;
+header{
+	display: table;
+	width: 100%;
+	background-color: rgb(255, 255, 240);
+	border-bottom: 2px black solid;
 }
 
-header nav{
-  width: 100%;
-  display: table;
+header header{
+	width: 100%;
+	display: table;
 }
 
 
-/* Top Header Navigation is divided to three section, Left, Middle, Right /*
+/* Top Header headerigation is divided to three section, Left, Middle, Right /*
 /* ALL Table Cell */
-header#page nav h1,
-header#page nav ul,
-header#page nav li,
-header#page nav div{
-  display:table-cell;
-  vertical-align: middle;
+#hambuger{
+	display: table;
+}
+header h1,
+header nav,
+header li,
+header div{
+	display:table-cell;
+	vertical-align: middle;
 }/* === Not targeting h3 and p === */
 
 
-/* ALL Nav Text */
-nav h1, nav p, nav a, header#page h3{
-  margin: 0px;
-  display: block;
-  white-space: nowrap;
-  vertical-align: middle;
+/* ALL header Text */
+header h3,
+header a,
+div.right p{
+	margin: 0px;
+	display: block;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+p.tablet{
+	white-space: nowrap;
 }
 
 
 /* 1 - Left - First Cell */
-header#page nav h1{
-  width: 47%; /* basically moves the 2nd cell */
-  font-size: 1.8vw;
-  padding-left: 14px;
-  padding-right: 8px;
+header h1{
+	width: 47%; /* basically moves the 2nd cell */
+	font-size: 1.8vw;
+	padding-left: 14px;
+	padding-right: 8px;
 }
 
-header#page h1 a{
-  width: inherit; /* fix for hover over */
-  display: block; /* due to being inside of h1 */
+header h1 a{
+	width: inherit; /* fix for hover over */
+	display: block; /* due to being inside of h1 */
 }
-
-header#page h1 a p.desktop{}
-header#page h1 a p.tablet{display: none;}
 
 
 /*  2 - Middle - Second Cell */
-header#page nav ul{
-  list-style: none;
-  text-align: center;
-  padding-left: 0px;
-  line-height: 2.4em;
+header nav ul{
+	list-style: none;
+	text-align: center;
+	padding-left: 0px;
+	line-height: 2.4em;
 }
-header#page nav li{ /*:not(:last-child){*/
-  padding-right: 18px;
+header li{ /*:not(:last-child){*/
+	padding-right: 18px;
 }
 
-header#page nav li a{
-  font-size: 1.1em;
-  font-weight: 500;
+header li a{
+	font-size: 1.1em;
+	font-weight: 500;
 }
 
 /* 3 - Right - Third Cell */
-header#page div.right{
-  text-align: right;
-  padding: 8px 14px 8px 0px;
+header div.right{
+	text-align: right;
+	padding: 8px 14px 8px 0px;
 }
 /* ////// ================= ////// */
-/* ////// [End] Top Nav Bar ////// */
+/* ////// [End] Top header Bar ////// */
 /* ////// ================= ////// */
 
 
@@ -190,42 +196,42 @@ header#page div.right{
 /* ////// Container ////// */
 /* -------------------------------------------------------------- */
 #container{
-  display:block;
-  width: 82%;
-  max-width: 1080px;
-  margin: 38px auto 0px;
-  background-color: rgba(255,255,255,0.8);
-  padding: 0.1px 30px 25px;
+	display:block;
+	width: 82%;
+	max-width: 1080px;
+	margin: 38px auto 0px;
+	background-color: rgba(255,255,255,0.8);
+	padding: 0.1px 30px 25px;
 }
 
 #main, #sidebar{
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
 }
 
 #main{
-  width: 680px;
+	width: 680px;
 }
 #sidebar{
-  width: 440px;
+	width: 440px;
 }
 #sidebar h2{
-  width: 105%;
+	width: 105%;
 }
 
 #sidebar .widget ul li{
-  list-style-type: none;
+	list-style-type: none;
 }
 li#social_media{
-  height: 173.2px;
+	height: 173.2px;
 }
 li#social_media ul{
-  overflow: visible;
+	overflow: visible;
 }
 li.fb-like{
-  position: relative;
-  top: -23px;
+	position: relative;
+	top: -23px;
 }
 /* ////// [END] Container ////// */
 
@@ -237,11 +243,11 @@ li.fb-like{
 */
 
 div#right_php{
-  background: white;
-  right: 0px;
-  position: absolute;
-  height: 100%;
-  text-align: right;
+	background: white;
+	right: 0px;
+	position: absolute;
+	height: 100%;
+	text-align: right;
 }
 
 
@@ -250,75 +256,75 @@ div#right_php{
 
 /*  Home Page Style */
 article#post-home img.fright{
-  margin: 30px 0 0 8px;
-  border-radius: 7px;
+	margin: 30px 0 0 8px;
+	border-radius: 7px;
 }
 
 article#post-home p.wlist{
-  margin-bottom: -20px;
+	margin-bottom: -20px;
 }
 
 article#post-home div.entry-content{
-  margin-bottom: -7px;
-  padding-bottom: 0px;
+	margin-bottom: -7px;
+	padding-bottom: 0px;
 }
 article#post-home img.fullWith{
-  margin-left: -15px;
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
+	margin-left: -15px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
 }
 /* [END] Home Page Style */
 
 
 /*  About Page Style */
 article#post-about span{
-  text-align: center;
+	text-align: center;
 }
 
 article#post-about h3{
-  margin-left: 35px;
+	margin-left: 35px;
 }
 
 article#post-about h1,
 article#post-about h2{
-  position: relative;
+	position: relative;
 }
 
 article#post-about span h1{
-  right: 60px;
+	right: 60px;
 }article#post-about span h2{
-  left: 50px;
+	left: 50px;
 }
 
 article#post-about img{
-  margin: 0 auto;
-  display: block;
+	margin: 0 auto;
+	display: block;
 }
 /* [END] About Page Style */
 
 
 
 footer{
-  /*background-color: #081CE4; // Triadic */
-  background-color: #088AE4; /* Split Complimentary */
-  width: 100%;
-  text-align: center;
-  color: white;
-  font-weight: 900;
-  font-size: 1.5em;
-  line-height: 2em;
+	/*background-color: #081CE4; // Triadic */
+	background-color: #088AE4; /* Split Complimentary */
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: 900;
+	font-size: 1.5em;
+	line-height: 2em;
 }
 footer div{
-  display: inline;
+	display: inline;
 }
 
 /*Facebook Icon*/
 footer a.i{
-  display: inline-block;
-  margin: 20px;
+	display: inline-block;
+	margin: 20px;
 }
 /*Copyright*/
 footer span{
-  font-size: .7em;
-  color: #1CE408;
+	font-size: .7em;
+	color: #1CE408;
 }
