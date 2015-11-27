@@ -53,6 +53,7 @@ $(function(){
 
 	/*	Show the Mobile Navigation */
 	function show_mobile_nav (){
+		main_nav.css("height", "0px");
 		/* Show the Menu when menu button clicked */
 		main_nav.css('display', 'block');
 		main_nav.css('position', 'absolute');
