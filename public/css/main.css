@@ -112,15 +112,11 @@ section{
 header{
 	display: table;
 	width: 100%;
-	background-color: rgb(255, 255, 240);
 	border-bottom: 2px black solid;
 }
-
-header header{
-	width: 100%;
-	display: table;
+header, nav ul{
+	background-color: rgb(255, 255, 240);
 }
-
 
 /* Top Header headerigation is divided to three section, Left, Middle, Right /*
 /* ALL Table Cell */

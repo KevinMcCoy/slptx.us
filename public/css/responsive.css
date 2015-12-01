@@ -70,16 +70,23 @@
 		background-color: #9E9E9E;
 	}
 
-	nav.desktop{
-		left: 8px;
+	header nav.desktop{
+		left: 0px;
 		margin-top: 76px;
 		background: rgb(255, 255, 240);
 		border-right: 1px gray solid;
 		border-bottom: 1px gray solid;
 	}
-	nav ul li{
+	header nav ul{
+		margin: 0px;
+		padding: 12px 25px;
+	}
+	header nav ul li{
 		display: list-item;
 		text-align: left;
+	}
+	header nav ul li a{
+		line-height: 2.25;
 	}
 
 }

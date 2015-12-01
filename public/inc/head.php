@@ -19,20 +19,21 @@
 	<meta name="description" content="Speech and Language Therapy can be provided in your home or my office." />
 	<meta name="viewport" content="width=device-width">
 
-		<!--[if lt IE 9]>
-			<script src="" type="text/javascript"></script>
-		<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="" type="text/javascript"></script>
+	<![endif]-->
 
-		<script type="text/javascript">
-			/* <![CDATA[ */
+	<script type="text/javascript">
+		/* <![CDATA[ */
 			function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
-			/* ]]> */
-		</script>
+		/* ]]> */
+	</script>
 
-		<!--[if lt IE 8]>
+	<!--[if lt IE 8]>
 		<link rel='stylesheet' id='highlander-comments-ie7-css'  href='http://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
-		<![endif]-->
+	<![endif]-->
 
+	<!-- Fav Icon -->
 	<meta name="generator" content="Hand Made" />
 	<meta property="article:publisher" content="Kevin McCoy" />
 	<link rel='canonical' href='http://maitlandspeechtherapy.com/' />
@@ -56,7 +57,6 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Jetpack Open Graph Tags -->
-	<!-- Add back in WIP -->
 
 	<!-- NewRelics -->
 	<script type="text/javascript">
@@ -65,14 +65,13 @@
 	</script>
 	<!-- [END] NewRelics -->
 
-	<!-- Fav Icon -->
 
 	<!-- default CSS  -  Main.CSS -->
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Questrial'>
+	<link rel="stylesheet" type='text/css' href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/accordion.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Questrial'>
-	<link rel="stylesheet" type='text/css' href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<style>
 		/* Font Setup */
 		/* google - Questrial */
