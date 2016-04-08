@@ -1,4 +1,4 @@
-<header id="page">
+<header>
 
 	<a id="hambuger" class="tablet" href="#"><span></span></a>
 
@@ -19,4 +19,4 @@
 		<p>Speech-Language Pathologist</p>
 	</div>
 
-</header><!-- [END] #page header -->
+</header><!-- [END] header -->

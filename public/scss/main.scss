@@ -18,11 +18,9 @@ h1, h2, h3, h4, a, span{
 	text-decoration: none;
 }
 
+
 body{
 	color: #081CE4; /* Blue <---> rgb(3, 21, 64); */
-	/*min-width:822px;*/
-	min-width:452px;
-	margin: 8px;
 }
 
 #container p,
@@ -32,6 +30,9 @@ body{
 }
 
 /* Links - A Href */
+a:hover{
+	text-decoration: underline;
+}
 a:hover,
 a.active,
 a.active p{
@@ -92,19 +93,37 @@ header#menu ul li.current_page_item a{
 /* -------------------------------------------------------------- */
 /* === Layout Setup ============================================= */
 /* -------------------------------------------------------------- */
-html{
-	background-color: #088AE4 !important; /* Split Complimentary */
+html,body{
+	background-color: #088AE4; /* Split Complimentary */
+	height: 100%;
 }
-body{
-	background-color: aliceblue;
-	/*background-color: rgb(254,254,254);*/
+html{
+	margin: 0px;
+
+	body{
+		min-width:452px;
+		margin: 7px 17px 0px;
+
+		div#wrapper{
+			background-color: aliceblue;
+			min-height: 100%;
+			margin-bottom: -111px;
+			&:after{
+				content: "";
+				display: block;
+			}
+		}
+		footer, div#wrapper:after {
+			min-height: 111px;
+		}
+	}
 }
 section{
 	padding-bottom:12px;
 }
 
 /* -------------------------------------------------------------- */
-/* === Page's main Header =================================================== */
+/* === Page's main Header ======================================= */
 /* -------------------------------------------------------------- */
 header{
 	display: table;
@@ -299,7 +318,6 @@ footer{
 	font-weight: 900;
 	font-size: 1.5em;
 	line-height: 2em;
-	min-height: 111px;
 	div{
 		display: inline-block;
 	}
