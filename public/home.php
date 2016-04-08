@@ -9,7 +9,8 @@
 		//  include('inc/right.php'); ?>
 
 	<div id="container">
-	<?// asha logo
+	<?php
+		// asha logo
 		// <div><a href="http://www.asha.org/" target="_blank"><img src='<?= (baseurl());?><?//img/ashaLogoBW.png' alt='' width='180' height='' style="float:right; margin:25px;"></a></div>
 		// <div style="clear:both;"></div>
 	?>
