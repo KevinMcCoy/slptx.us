@@ -14,7 +14,7 @@
 	</nav>
 
 	<div class='right'>
-		<h3><a href="tel: 4079009859">407-900-9859</a></h3>
+		<h3><a href="tel:4079009859">407-900-9859</a></h3>
 		<p>Barbara Snipes, M.A., CCC-SLP</p>
 		<p>Speech-Language Pathologist</p>
 	</div>
