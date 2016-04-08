@@ -51,7 +51,7 @@
 	<link rel="icon" type="image/png" href="favIcon/favicon-96x96.png" sizes="96x96">
 	<link rel="icon" type="image/png" href="favIcon/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="favIcon/manifest.json">
-	<link rel="mask-icon" href="favIcon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="mask-icon" href="favIcon/safari-pinned-tab.svg">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -69,9 +69,9 @@
 	<!-- default CSS  -  Main.CSS -->
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Questrial'>
 	<link rel="stylesheet" type='text/css' href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/accordion.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
 	<style>
 		/* Font Setup */
 		/* google - Questrial */

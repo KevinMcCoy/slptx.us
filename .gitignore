@@ -2,3 +2,5 @@ fuel/app/logs/*/*/*
 fuel/app/cache/*/*
 
 *.codekit
+
+*.scssc
