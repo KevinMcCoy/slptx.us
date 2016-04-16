@@ -4,8 +4,8 @@
 
 	<h1 id="site-title">
 		<a href="index.php" class="escapehatch <?= ($thisPage == 'index' ? ' active' : '') ?>">
-			<p class="desktop">Maitland Speech Therapy In Central Florida</p>
-			<p class="tablet">Maitland Speech Therapy<br />Central Florida</p>
+			<span class="desktop">Maitland Speech Therapy In Central Florida</span>
+			<span class="tablet">Maitland Speech Therapy<br />Central Florida</span>
 		</a>
 	</h1>
 
