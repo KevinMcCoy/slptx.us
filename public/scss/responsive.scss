@@ -1,0 +1,111 @@
+
+@media screen and (min-width:1920px) {}
+@media screen and (min-width:1600px) {}
+@media screen and (max-width:1599px) {}
+@media screen and (max-width:1279px) {}
+
+/* ////// ================= ////// */
+/* PHONE - Media Setup */
+/* ////// ================= ////// */
+@media (max-width: 1082px) {
+	/* ========== */
+	/* First Cell */
+	header h1{
+		font-size: 0.9em;
+		width: 37%;
+	}
+
+	/* Last Cell */
+	header div{
+		font-size: 0.72em;
+	}
+}
+
+@media screen and (max-width:959px) {
+
+}
+
+/*@media screen and (min-width:881px) {*/
+@media screen and (min-width:960px) {
+	.desktop{display: initial;}
+	.tablet{display: none;}
+}
+/*Layout changes*/
+/*@media screen and (max-width:880px) {*/
+@media screen and (max-width:959px) {
+
+	.desktop{display: none;}
+	.tablet{display: initial;}
+
+	#hambuger{
+		position: relative;
+		cursor: pointer;
+		height: 35px;
+		top: 19px;
+		width: 35px;
+		margin-left: 30px;
+	}
+	#hambuger span {
+		position: relative;
+		top: 14px;
+		margin: 0 auto;
+	}
+
+	#hambuger span,
+	#hambuger span:before,
+	#hambuger span:after {
+		border-radius: 10px;
+		height: 7px;
+		width: 35px;
+		background: black;
+		position: relative;
+		display: block;
+		content: '';
+	}
+	#hambuger span:before {
+		bottom: 13px;
+	}
+	#hambuger span:after {
+		top: 6px;
+	}
+	a#hambuger.no-touch span,
+	a#hambuger.no-touch span:before,
+	a#hambuger.no-touch span:after{
+		background-color: #9E9E9E;
+	}
+
+	header nav.desktop{
+		left: 0px;
+		margin-top: 76px;
+		background: rgb(255, 255, 240);
+		border-right: 1px gray solid;
+		border-bottom: 1px gray solid;
+	}
+
+	header nav ul{
+		margin: 0px;
+		padding: 12px 25px;
+		li{
+			display: list-item;
+			text-align: left;
+			a{
+				line-height: 2.25;
+			}
+		}
+	}
+
+}
+
+
+
+
+@media screen and (max-width:639px) {
+	body{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+}
+
+
+@media screen and (max-width:320px) {}

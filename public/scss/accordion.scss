@@ -1,0 +1,43 @@
+.hide {
+	display:none;
+}
+
+.accordion{
+	margin: 0px auto;
+	padding: 45px 0px;
+	/*max-width:760px;*/
+
+	article {
+		header,
+		section {
+			padding-left: 24px;
+		}
+		header {
+			overflow: auto;
+			font-size:1.2em;
+			line-height:1em;
+			color:#FFF;
+			/*background-color: #081CE4;*/
+			background-color: #088AE4;
+			/*border-bottom: 1px solid #4DA6E4;
+			border-bottom: 1px solid #043D64;*/
+			border-bottom: 1px solid #066BB1;
+
+			h1{
+				line-height: 2.1em;
+				color: #E4D008; /* Gold */
+				cursor: pointer;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		section {
+			margin:0;
+			padding: 8px 13px 17px 24px;
+			border: 1px solid #efefef;
+			background: #FFF;
+		}
+	}//article
+}//.accordion

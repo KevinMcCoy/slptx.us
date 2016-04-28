@@ -1,9 +1,12 @@
 <!-- footer -->
-<footer id="" role="">
+<footer>
 	<a class="i" href="https://www.facebook.com/MaitlandSpeechTherapy" target="_blank">
 		<i class="fa fa-facebook-square"></i>
 	</a>
-	<div id="">Maitland Speech Therapy <span>&copy;2015</span></div>
+	<div>Maitland Speech Therapy <span>&copy;2015</span></div>
+
+	<img src='<?= (baseurl());?>img/ashaLogoBW.png' alt='' width='180' height='65'>
+
 </footer>
 
 <?php if( baseURL('live') ){
