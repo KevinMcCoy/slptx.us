@@ -1,4 +1,5 @@
 /* CSS Written by Kevin McCoy 2015 */
+/* CSS Updated by Kevin McCoy 2016 */
 
 
 
@@ -12,7 +13,7 @@ article#post-home p{
 
 
 /* Color Family Weight */
-h1, h2, h3, h4, a, span{
+h1, h2, h3, h4, a{
 	color: rgb(228, 9, 11); /* Green */
 	/*color: #E4D008; /* Gold */
 	text-decoration: none;
@@ -33,6 +34,7 @@ body{
 a:hover{
 	text-decoration: underline;
 }
+h1:hover,
 a:hover,
 a.active,
 a.active p{
@@ -276,12 +278,17 @@ body#home{
 		margin: 0px 25px;
 	}
 }
-
-
 /* [END] Home Page Style */
 
 
 /*  About Page Style */
+body#about{
+	h2{
+		border-bottom: 2px solid #088AE4;
+	}
+}
+
+
 article#post-about span{
 	text-align: center;
 }
