@@ -1,6 +1,6 @@
 <?php
 	$thisPage = 'about';
-	require_once '../_baseurl.php'; //to use type   echo(baseurl());
+	require_once '_baseURL.php'; //to use type   echo(baseurl());
 	include('inc/head.php');
 	?>
 
