@@ -1,5 +1,5 @@
 <?php
-	//Blank
+	require_once '_baseURL.php'; //to use type echo(baseurl());
 ?>
 
 <!DOCTYPE html>
