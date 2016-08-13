@@ -3,7 +3,7 @@
 	<a id="hambuger" class="tablet" href="#"><span></span></a>
 
 	<h1 id="site-title">
-		<a href="home" class="escapehatch <?= ($thisPage == 'index' ? ' active' : '') ?>">
+		<a href="home.php" class="escapehatch <?= ($thisPage == 'index' ? ' active' : '') ?>">
 			<span class="desktop">Maitland Speech Therapy In Central Florida</span>
 			<span class="tablet">Maitland Speech Therapy<br />Central Florida</span>
 		</a>
