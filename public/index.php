@@ -1,4 +1,4 @@
 <?php
-	header('Location: home',true,302 );
+	header('Location: home.php', true, 301 );
 	exit();
 ?>
