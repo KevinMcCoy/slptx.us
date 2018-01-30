@@ -39,7 +39,7 @@
 				<a class="a2a_button_google_plus"></a>
 				<a class="a2a_dd" href="https://www.addtoany.com/share_save"></a>
 			</div>
-			<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+			<script src="//static.addtoany.com/menu/page.js"></script>
 			<!-- AddToAny END -->
 
 		</div> <!-- [END] #container -->
