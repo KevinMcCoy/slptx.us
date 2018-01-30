@@ -29,7 +29,7 @@
 				<p>ASHA Member
 				<p>FL License #SA4451
 
-				<p><a href="tel: 4079009859">407-900-9859</a></p>
+				<p><a href="tel:4079009859">407-900-9859</a></p>
 			</section>
 
 			<!-- AddToAny BEGIN -->
