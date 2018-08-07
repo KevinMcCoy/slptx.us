@@ -650,11 +650,11 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "\/public\/scss\/main.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "\/public\/css\/main.css",
+		"oF": 2,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/public\/scss\/responsive.scss": {
