@@ -11,7 +11,7 @@
 	/* ========== */
 	/* First Cell */
 	header h1{
-		font-size: 0.9em;
+		font-size: 1em;
 		width: 37%;
 	}
 
@@ -83,17 +83,30 @@
 		border-bottom: 1px gray solid;
 	}
 
-	header nav ul{
-		margin: 0px;
-		padding: 12px 25px;
-		li{
-			display: list-item;
-			text-align: left;
-			a{
-				line-height: 2.25;
+	header{
+		/* 3 - Right - Third Cell */
+		div.right{
+			bottom: -10px;
+			display: block;
+			margin: 0px 14px 0px 0px;
+			padding: 0px;
+		}
+		h1{
+			padding-left: 0px;
+		}
+		nav ul{
+			margin: 0px;
+			padding: 12px 25px;
+			li{
+				display: list-item;
+				text-align: left;
+				a{
+					line-height: 2.25;
+				}
 			}
 		}
 	}
+
 
 	/*  services Page Style */
 	body#services{

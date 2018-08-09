@@ -169,11 +169,11 @@ p.tablet{
 header h1{
 	width: 47%; /* basically moves the 2nd cell */
 	font-size: 1.8vw;
+	padding-left: 14px;
 }
 
 header h1 a{
 	width: inherit; /* fix for hover over */
-	display: block; /* due to being inside of h1 */
 }
 
 
@@ -195,11 +195,11 @@ header li a{
 
 /* 3 - Right - Third Cell */
 header div.right{
-	bottom: -10px;
+	bottom: 0px;
 	position: relative;
 	text-align: right;
-	margin: 0px 14px 0px 0px;
-	display: block;
+	padding: 0px 14px 0px 0px;
+	margin: 0px;
 }
 /* ////// ===================== ////// */
 /* ////// [End] Top header Bar  ////// */
