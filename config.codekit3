@@ -16,6 +16,13 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/build\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
 	"\/deployIntegration.sh": {
 		"cB": 0,
 		"ft": 8192,
@@ -112,6 +119,16 @@
 		"oA": 1,
 		"oAP": "\/public\/about.php",
 		"oF": 0
+		},
+	"\/public\/css\/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/css\/main-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/public\/css\/main.css": {
 		"aP": 1,
@@ -440,6 +457,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/public\/img\/about.jpg": {
+		"ft": 16384,
+		"iS": 5018,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/public\/img\/about.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/public\/img\/ashaLogoBW.png": {
 		"ft": 32768,
 		"iS": 73583,
@@ -540,6 +568,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/public\/inc\/head.php",
+		"oF": 0
+		},
+	"\/public\/inc\/head_trash.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/inc\/head_trash.php",
 		"oF": 0
 		},
 	"\/public\/inc\/nav.php": {
@@ -675,6 +710,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/public\/services.php",
+		"oF": 0
+		},
+	"\/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/README.html",
 		"oF": 0
 		},
 	"\/README.md": {
