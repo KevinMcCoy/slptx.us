@@ -30,7 +30,9 @@
 	.desktop{display: initial;}
 	.tablet{display: none;}
 }
+
 /*Layout changes*/
+
 /*@media screen and (max-width:880px) {*/
 @media screen and (max-width:959px) {
 
@@ -93,6 +95,14 @@
 			}
 		}
 	}
+
+	/*  services Page Style */
+	body#services{
+		div.accordion p.ome{
+			width: 85%;
+		}
+	}
+	/* [END] services Page Style */
 
 }
 

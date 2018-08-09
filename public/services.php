@@ -103,7 +103,7 @@
 						<h1>Oral-motor Exercises:</h1>
 					</header>
 					<section>
-						<p style="width:45%;">Refers to the strength and coordination of the oral/
+						<p class="ome">Refers to the strength and coordination of the oral/
 						facial muscles needed for correct speech. The client may
 						exhibit drooling, chewing on clothes, or breathing
 						through their mouth.</p>
