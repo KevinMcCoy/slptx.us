@@ -17,15 +17,11 @@
 			font-size:1.2em;
 			line-height:1em;
 			color:#FFF;
-			/*background-color: #081CE4;*/
-			background-color: #088AE4;
-			/*border-bottom: 1px solid #4DA6E4;
-			border-bottom: 1px solid #043D64;*/
-			border-bottom: 1px solid #066BB1;
+			background-color: rgba(6,115,171,0.12);
+			border: 3px solid #088AE4;
 
 			h1{
 				line-height: 2.1em;
-				color: #E4D008; /* Gold */
 				cursor: pointer;
 				&:hover {
 					text-decoration: underline;

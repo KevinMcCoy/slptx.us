@@ -3,6 +3,16 @@
 
 
 
+/* Color */
+h1, h2, h3, h4, a{
+	// color: rgb(228, 9, 11); // Red
+	color: #2dab9d;
+	text-decoration: none;
+}
+header, nav ul, #container{
+	background-color: rgb(255, 255, 250);
+}
+
 
 /* ====================================*/
 /* === Fonts     ======================*/
@@ -12,15 +22,8 @@ article#post-home p{
 }
 
 
-/* Color Family Weight */
-h1, h2, h3, h4, a{
-	color: rgb(228, 9, 11);
-	text-decoration: none;
-}
-
-
 body{
-	color: #081CE4; /* Blue <---> rgb(3, 21, 64); */
+	// color: #081CE4; /* Blue <---> rgb(3, 21, 64); */
 	position: relative;
 }
 
@@ -34,11 +37,12 @@ body{
 a:hover{
 	text-decoration: underline;
 }
+body,
 h1:hover,
 a:hover,
 a.active,
 a.active p{
-	color: #081CE4;
+	color: #6d3e44;
 }
 
 header li a{
@@ -104,12 +108,12 @@ html{
 
 	body{
 		min-width:452px;
-		margin: 7px 17px 0px;
+		margin: 0px;
 
 		div#wrapper{
 			background-color: aliceblue;
 			min-height: 100%;
-			margin-bottom: -111px;
+			margin-bottom: -70px;
 			&:after{
 				content: "";
 				display: block;
@@ -131,9 +135,6 @@ header{
 	display: table;
 	width: 100%;
 	border-bottom: 2px black solid;
-}
-header, nav ul{
-	background-color: rgb(255, 255, 240);
 }
 
 /* Top Header headerigation is divided to three section, Left, Middle, Right /*
@@ -214,7 +215,6 @@ header div.right{
 	width: 82%;
 	max-width: 1080px;
 	margin: 38px auto 0px;
-	background-color: rgba(255,255,255,0.8);
 	padding: 0.1px 30px 25px;
 }
 
@@ -319,12 +319,15 @@ article#post-about img{
 footer{
 	/*background-color: #081CE4; // Triadic */
 	background-color: #088AE4; /* Split Complimentary */
-	width: 100%;
+	// width: 150%;
+	// margin-left: -25%;
 	text-align: center;
 	color: white;
 	font-weight: 900;
 	font-size: 1.5em;
 	line-height: 2em;
+
+
 	div{
 		display: inline-block;
 	}
@@ -339,18 +342,20 @@ footer{
 			display: inline-block;
 			position: absolute;
 			right: 7%;
-			// margin:25px 10% 25px 0;
-			margin:25px auto;
+			margin:54px auto 30px;
 		}
 	}
-
 }
-
+footer.box {
+	border-color: #000 transparent transparent transparent;
+	border-radius: 50%/55px 55px 0 0;
+	border-radius: 85%/85px 85px 0 0;
+}
 
 /*Facebook Icon*/
 footer a.i{
 	display: inline-block;
-	margin: 20px;
+	margin: 58px 20px;
 }
 /*Copyright*/
 footer span{

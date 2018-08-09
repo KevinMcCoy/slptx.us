@@ -1,5 +1,5 @@
 <!-- footer -->
-<footer>
+<footer class="box">
 	<a class="i" href="https://www.facebook.com/MaitlandSpeechTherapy" target="_blank">
 		<i class="fa fa-facebook-square"></i>
 	</a>
