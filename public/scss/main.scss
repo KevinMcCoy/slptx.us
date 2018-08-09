@@ -60,7 +60,7 @@ header h3 a:hover{	/* Hack for Mobile to Click and Call */
 	color: rgb(228, 9, 11);
 }
 header div.right p{
-	font-size: 13px;
+	font-size: 11px;
 }
 
 
@@ -169,8 +169,6 @@ p.tablet{
 header h1{
 	width: 47%; /* basically moves the 2nd cell */
 	font-size: 1.8vw;
-	padding-left: 14px;
-	padding-right: 8px;
 }
 
 header h1 a{
@@ -197,8 +195,11 @@ header li a{
 
 /* 3 - Right - Third Cell */
 header div.right{
+	bottom: -10px;
+	position: relative;
 	text-align: right;
-	padding: 8px 14px 8px 0px;
+	margin: 0px 14px 0px 0px;
+	display: block;
 }
 /* ////// ===================== ////// */
 /* ////// [End] Top header Bar  ////// */
