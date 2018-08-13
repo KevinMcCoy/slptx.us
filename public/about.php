@@ -28,7 +28,7 @@
 
 				<p>FL License #SA4451
 				<p>ASHA Member
-					<img style="float:right; margin-top:-22px;" src='<?= (baseurl());?>img/ashaLogoBW.png' alt='ASHA Member Logo' width='180' height='65'>
+					<img style="float:right; margin-top:-20px;" src='<?= (baseurl());?>img/ashaLogoBW.png' alt='ASHA Member Logo' width='180' height='65'>
 				</p>
 
 				<p><a href="tel:4079009859">407-900-9859</a></p>
