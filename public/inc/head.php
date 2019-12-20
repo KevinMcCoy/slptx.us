@@ -70,8 +70,8 @@
 	</style>
 
 	<!-- JavaScript -->
-	<script src="js/jquery-accordion/jquery-2.1.3.min.js"></script>
-	<script src="js/jquery-accordion/animate.js" defer></script>
+	<!-- <script src="js/jquery-accordion/jquery-2.1.3.min.js"></script>
+	<script src="js/jquery-accordion/animate.js" defer></script> -->
 
 	<!-- Google Plus Button - Place this tag in your head or just before your close body tag. -->
 	<!-- WIP -->
