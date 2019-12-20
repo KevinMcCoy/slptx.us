@@ -15,4 +15,4 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /home.php?/$1 [L]
+RewriteRule ^(.*)$ /home.php/$1 [L]
