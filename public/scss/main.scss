@@ -269,7 +269,7 @@ body#home{
 	#container img{
 		width: 50%;
 		height: auto;
-		max-width: 350px;
+		max-width: 300px;
 		float: right;
 		margin: 0px 25px;
 	}
@@ -358,10 +358,11 @@ footer.box {
 /*Facebook Icon*/
 footer a.i{
 	display: inline-block;
-	margin: 58px 20px;
+	margin: 58px 15px 58px 20px;
 }
 /*Copyright*/
-footer span{
+footer span,
+footer a.call{
 	font-size: .7em;
 	color: #1CE408;
 }
