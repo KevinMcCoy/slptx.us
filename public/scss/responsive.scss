@@ -8,8 +8,7 @@
 /* PHONE - Media Setup */
 /* ////// ================= ////// */
 @media (max-width: 1082px) {
-	/* ========== */
-	/* First Cell */
+
 	header h1{
 		font-size: 1em;
 		width: 37%;
@@ -107,27 +106,32 @@
 		}
 	}
 
+}
 
-	/*  services Page Style */
-	body#services{
-		div.accordion p.ome{
-			width: 85%;
+
+
+
+@media screen and (max-width: 822px) {
+	img#ash{
+		margin: 0px 0px 0px;
+	}
+
+}
+@media screen and (max-width:624px) {
+// @media screen and (max-width:702px) {
+	img#ash{
+		margin: 20px 0px 0px;
+	}
+	footer.box{
+		padding-top: 28px;
+		a, a.i{
+			display: block;
+			margin:10px auto;
+		}
+		div{
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 20px;
 		}
 	}
-	/* [END] services Page Style */
-
 }
-
-
-
-
-@media screen and (max-width:639px) {
-	body{
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-
-}
-
-
-@media screen and (max-width:320px) {}

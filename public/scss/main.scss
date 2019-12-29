@@ -1,5 +1,6 @@
 /* CSS Written by Kevin McCoy 2015 */
 /* CSS Updated by Kevin McCoy 2016 */
+/* CSS Updated by Kevin McCoy 2019 */
 
 
 
@@ -71,7 +72,7 @@ a.i{
 	color: rgb(253, 248, 248);
 }
 a.i:hover{
-	transition: color 1.4s ease;
+	transition: color 0.7s ease;
 	cursor: pointer;
 	/*color: rgb(200,200,200);*/
 	color: rgb(228, 9, 11);
@@ -265,14 +266,12 @@ div#right_php{
 }
 
 /*  Home Page Style */
-body#home{
-	#container img{
+img#ash{
 		width: 50%;
 		height: auto;
 		max-width: 300px;
 		float: right;
-		margin: 0px 25px;
-	}
+		margin: -20px 25px;
 }
 /* [END] Home Page Style */
 
@@ -310,18 +309,11 @@ article#post-about img{
 /* [END] About Page Style */
 
 
-/*  services Page Style */
-body#services{
-	div.accordion p.ome{
-		width: 45%;
-	}
-}
-/* [END] services Page Style */
-
 
 footer{
-	/*background-color: #081CE4; // Triadic */
-	background-color: #088AE4; /* Split Complimentary */
+	// background-color: #081CE4; // Triadic
+	background-color: #41ace8;
+
 	// width: 150%;
 	// margin-left: -25%;
 	text-align: center;
@@ -333,20 +325,6 @@ footer{
 
 	div{
 		display: inline-block;
-	}
-
-	@media not all and (min-width: 985px){
-		img{
-			display: none;
-		}
-	}
-	@media (min-width: 985px) {
-		img{
-			display: inline-block;
-			position: absolute;
-			right: 7%;
-			margin:54px auto 30px;
-		}
 	}
 }
 footer.box {
@@ -360,12 +338,28 @@ footer a.i{
 	display: inline-block;
 	margin: 58px 15px 58px 20px;
 }
-/*Copyright*/
+
 footer span,
 footer a.call{
-	font-size: .7em;
-	color: #1CE408;
+	// color: #1CE408;
+
+	// color: #08e464;
+	// color: #e4c308;
+	color: #0200a0;
+}
+footer a.call{
+	font-size: .9em;
+}
+footer a.call:hover{
+	transition: color 0.5s ease;
+	cursor: pointer;
+	color: rgb(228, 9, 11);
 }
 
-@import 'accordion';
+
+/*Copyright*/
+footer span{
+	font-size: .6em;
+}
+
 @import 'responsive';
