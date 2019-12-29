@@ -46,8 +46,8 @@
 						necessary.
 					</p>
 					<p>Speech and Language Therapy can be provided in your home or my office. Parents will also be taught how to work with their child during the week and techniques will be taught for carry over into everyday conversations. That way, the child will improve at a faster rate and the parents are happier!</p>
-
 			</article>
+
 			<section id="set">
 				<span style="margin: 20px auto 10px; display:block; max-width:600px; text-align:center;">Speech and Language Therapy Is Available For Children/Adults Experiencing Difficulty In The Following Areas:</span>
 
@@ -55,17 +55,17 @@
 				<ul>
 					<li>Comprehensive Diagnostic Services and Therapy</li>
 					<li>Articulation Disorder/Delay</li>
-					<li><ul>
+					<li style="list-style: none;"><ul style="list-style: none;">
 						<li><img src='<?= (baseurl());?>img/IMG_Nav1a.jpg' alt='' width='300' height='427' style="float:right; margin:0px 25px;">
-						Is when an speech sound is produced incorrectly.
-						This makes it difficult to be understood and can hinder
+						When a speech sound is produced incorrectly,
+						this makes it difficult to be understood and can hinder
 						learning to read.</li>
 					</ul></li>
 					<li>Phonics</li>
 					<li>Pre-reading skills</li>
 					<li>Phonemic Awareness </li>
 					<li>Language Therapy; Expressive and Receptive</li>
-					<li><ul>
+					<li style="list-style: none;"><ul style="list-style: none;">
 						<li>Language Disorder/Delay: Receptive language refers to the ability to understand
 						what is being said. You are receiving the information.
 						Expressive language refers to the ability to say what
@@ -73,7 +73,7 @@
 						thinking.</li>
 					</ul></li>
 					<li>Fluency/Stuttering</li>
-					<li><ul>
+					<li style="list-style: none;"><ul style="list-style: none;">
 						<li>Occurs when sounds, syllables, or words are
 						repeated or prolonged. This causes an interference in
 						the normal flow of speech, which makes it difficult for
@@ -82,7 +82,8 @@
 					<li>Voice</li>
 					<li>Pragmatics</li>
 					<li>Phonological Impairment</li>
-					<li><ul><li>Involves incorrect speech patterns. Typically, these
+					<li style="list-style: none;"><ul style="list-style: none;">
+						<li>Involves incorrect speech patterns. Typically, these
 						errors could include leaving the final consonant
 						off most words: "ha for hat," or "cu for cup." Or
 						substituting consonant
@@ -92,12 +93,13 @@
 						say "dood for good" or "tate for cake."</li>
 					</ul></li>
 					<li>Oral-motor Exercises:</li>
-					<li><ul><li>Refers to the strength and coordination of the oral/
+					<li style="list-style: none;"><ul style="list-style: none;">
+						<li>Refers to the strength and coordination of the oral/
 						facial muscles needed for correct speech. The client may
 						exhibit drooling, chewing on clothes, or breathing
 						through their mouth.</li>
 					</ul></li>
-					<li>also the ASD and Hearing Impaired population</li>
+					<li>ASD and Hearing Impaired population</li>
 				</ul>
 			</section>
 
@@ -106,7 +108,7 @@
 				<h3>Barbara Snipes</h3>
 				<p>Ms. Snipes has been practicing speech and language therapy in the
 					Maitland and Winter Park area since 1995. She earned her Master's degree in
-					Communicative Disorders at UCF. She has worked for 19 years with children in the public school system and at the college level as a Clinical Supervisor at UCF Communicative Disorders Clinic working with college interns. Barbara has worked with the Pre-K Diagnostic team, Hospital Homebound students, and in private practice.  She has a "whole child" approach to help the child grow to his/her potential. The family is encouraged to assist the child in reaching his/her goals and aspirations.
+					Communicative Disorders at UCF. She has worked for <?= date(Y)-1995; ?> years with children in the public school system and at the college level as a Clinical Supervisor at UCF Communicative Disorders Clinic working with college interns. Barbara has worked with the Pre-K Diagnostic team, Hospital Homebound students, and in private practice.  She has a "whole child" approach to help the child grow to his/her potential. The family is encouraged to assist the child in reaching his/her goals and aspirations.
 				</p>
 			</section>
 
@@ -115,7 +117,7 @@
 			<section>
 				<h3>Speech-Language Pathologist</h3>
 				<p>Barbara Snipes, M.A., CCC-SLP
-					<img style="float:right; margin-top:-20px;" src='<?= (baseurl());?>img/ashaLogoBW.png' alt='ASHA Member Logo' width='180' height='65'>
+					<img id="ash" src='<?= (baseurl());?>img/ashaLogoBW.png' alt='ASHA Member Logo' width='180' height='65'>
 				<p>FL License #SA4451
 				<p>ASHA Member</p>
 			</section>
