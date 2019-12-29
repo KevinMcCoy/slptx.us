@@ -11,7 +11,7 @@
 		<div id="container">
 			<div>
 				<!-- <img src='<?//= (baseurl());?>img/IMG_Nav1b.jpg' alt='Speech Language and Social Skills' width='350' height='480' > -->
-				<img src="<?= (baseurl());?>img/IMG_Nav1b.jpg" alt="Speech Language and Social Skills" width="350" height="480">
+				<img src="<?= (baseurl());?>img/IMG_Nav1b.jpg" alt="Speech Language and Social Skills" width="233" height="320">
 			</div>
 
 			<section id="about">

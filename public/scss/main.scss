@@ -264,7 +264,13 @@ div#right_php{
 	height: 100%;
 	text-align: right;
 }
-
+body img {
+		width: 50%;
+		height: auto;
+		max-width: 233px;
+		float: right;
+		margin: 0px 25px;
+}
 /*  Home Page Style */
 img#ash{
 		width: 50%;
