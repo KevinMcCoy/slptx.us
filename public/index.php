@@ -48,7 +48,7 @@
 					<p>Speech and Language Therapy can be provided in your home or my office. Parents will also be taught how to work with their child during the week and techniques will be taught for carry over into everyday conversations. That way, the child will improve at a faster rate and the parents are happier!</p>
 			</article>
 
-			<section id="set">
+			<section id="services">
 				<span style="margin: 20px auto 10px; display:block; max-width:600px; text-align:center;">Speech and Language Therapy Is Available For Children/Adults Experiencing Difficulty In The Following Areas:</span>
 
 				<h2>Services</h2>
