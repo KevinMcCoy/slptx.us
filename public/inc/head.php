@@ -29,7 +29,7 @@
 	<meta property="article:publisher" content="Kevin McCoy" />
 	<link rel='canonical' href='http://maitlandspeechtherapy.com/' />
 	<link rel='canonical' href='http://slptx.us/' />
-	<link rel='shortlink' href='http://45.55.57.206/slptx.us/' />
+	<?= //<!-- <link rel='shortlink' href='http://45.55.57.206/slptx.us/' /> --> ?>
 	<link rel="apple-touch-icon" sizes="57x57" href="favIcon/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favIcon/apple-touch-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="favIcon/apple-touch-icon-72x72.png">
@@ -70,19 +70,22 @@
 	</style>
 
 	<!-- JavaScript -->
-	<!-- <script src="js/jquery-accordion/jquery-2.1.3.min.js"></script>
-	<script src="js/jquery-accordion/animate.js" defer></script> -->
+	<script src="js/jquery-accordion/jquery-2.1.3.min.js"></script>
+	<script src="js/animate-min.js?v=1577600554" defer></script>
 
-	<!-- Google Plus Button - Place this tag in your head or just before your close body tag. -->
-	<!-- WIP -->
-
-	<!-- Twitter -->
-	<!-- WIP -->
-
-	<!-- Google Tracking -->
-	<!-- WIP -->
+	<?php
+		// <!-- Google Plus Button - Place this tag in your head or just before your close body tag. -->
+		// <!-- WIP -->
+		//
+		// <!-- Twitter -->
+		// <!-- WIP -->
+		//
+		// <!-- Google Tracking -->
+		// <!-- WIP -->
+	?>
 
 </head>
-
-<!-- Facebook Script - Not located in head -->
-<!-- WIP -->
+<?php
+	// <!-- Facebook Script - Not located in head -->
+	// <!-- WIP -->
+?>

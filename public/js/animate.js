@@ -1,20 +1,17 @@
 // animate by Kevin McCoy 2015
-$(document).ready(function() {
-
-	//Minimize all section skiping the first one for each div.accordion
-	$('div.accordion').each(function(){
-			$(this).find('section').filter(':gt(0)').addClass('hide');
-		}
-	);
-
-	//Animate accordion each time diffrent header get clicked
-	$('article').on('click', 'header', function() {
-		$(this).next().slideDown(200).prev().parent().siblings().find('section').slideUp(200);
-	});
-
-});
-
-
+// animate removed by Kevin McCoy 2019 - from 3 to single page view
+// $(document).ready(function() {
+	// //Minimize all section skiping the first one for each div.accordion
+	// $('div.accordion').each(function(){
+	// 		$(this).find('section').filter(':gt(0)').addClass('hide');
+	// 	}
+	// );
+	//
+	// //Animate accordion each time diffrent header get clicked
+	// $('article').on('click', 'header', function() {
+	// 	$(this).next().slideDown(200).prev().parent().siblings().find('section').slideUp(200);
+	// });
+// });
 
 
 $(function(){
@@ -93,6 +90,7 @@ $(function(){
 
 	/* add active when nav item is clicked */
 	main_nav.find('li a').on(clickHandler,function(){
+		hide_mobile_nav ();
 		main_nav.find('li a').addClass('disHover');
 		$(this).removeClass('disHover');
 		$(this).addClass('active');
