@@ -29,7 +29,7 @@
 	<meta property="article:publisher" content="Kevin McCoy" />
 	<link rel='canonical' href='http://maitlandspeechtherapy.com/' />
 	<link rel='canonical' href='http://slptx.us/' />
-	<?= //<!-- <link rel='shortlink' href='http://45.55.57.206/slptx.us/' /> --> ?>
+	<?php //<!-- <link rel='shortlink' href='http://45.55.57.206/slptx.us/' /> --> ?>
 	<link rel="apple-touch-icon" sizes="57x57" href="favIcon/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favIcon/apple-touch-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="favIcon/apple-touch-icon-72x72.png">
