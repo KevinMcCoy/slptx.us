@@ -1,2 +1,8 @@
 User-agent: *
+Disallow: /about.php
+Disallow: /home.php
 Disallow: /index.php
+Disallow: /services.php
+
+User-agent: *
+Allow: /
