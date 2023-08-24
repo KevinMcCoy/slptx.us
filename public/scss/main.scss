@@ -54,7 +54,8 @@ header h3{ /* Phone Number */
 	font-size: 21px;
 }
 header h3 a{				/* Hack for Mobile to Click and Call */
-	cursor: default;
+	// cursor: default;
+	// cursor: pointer;
 }
 header h3 a:hover{	/* Hack for Mobile to Click and Call */
 	text-decoration: none;
@@ -154,13 +155,13 @@ header div{
 
 /* ALL header Text */
 header h3,
-header a,
 div.right p{
 	margin: 0px;
 	display: block;
 	white-space: nowrap;
 	vertical-align: middle;
 }
+
 p.tablet{
 	white-space: nowrap;
 }
@@ -199,7 +200,7 @@ header div.right{
 	bottom: 0px;
 	position: relative;
 	text-align: right;
-	padding: 0px 14px 0px 0px;
+	padding: 6px 14px 9px 0px;
 	margin: 0px;
 }
 /* ////// ===================== ////// */
