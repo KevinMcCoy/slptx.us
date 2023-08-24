@@ -3,6 +3,6 @@
 fuel/app/logs/*/*/*
 fuel/app/cache/*/*
 
-*.codekit
+config.codekit3
 
 *.scssc
